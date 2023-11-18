@@ -1,0 +1,107 @@
+header{background-color: rgb(180, 199, 8);
+height: 500px;
+color: black;
+font-size:30px;
+background-image:url(https://ir.ozone.ru/s3/multimedia-i/c1000/6117028206.jpg) ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+
+h1{
+    text-align: center;
+    font-size: 80%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+    margin: 0;
+}
+h2{text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;}
+main{
+    background-color: aquamarine;
+    height: 100%;
+    color: black;
+    font-size: 25px;
+background-image:url(https://i.ytimg.com/vi/w76ZkkpX0co/maxresdefault.jpg) ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+background-image:url(https://i.ytimg.com/vi/CKTatoBJoV0/maxresdefault.jpg) ;
+background-attachment: fixed;
+background-size: cover;
+}
+
+footer{
+    background-color: rgb(19, 83, 53);
+    height: 100%;
+    color: black;
+    font-size: 20px;
+    background-image:url(https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2019%2F08%2Fkubik_rubik-000_resize.jpg) ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background: radial-gradient(red,blue);
+display: flex;}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+    padding-top: 20px;
+}
+.f_right{
+    width: 70%;
+    float: right;
+}
+
+.f_right img{width: 100px;
+padding-left: 20px;}
+
+.f_right ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+}
+
+
+
+
+    
+
+.right{
+    background-color: rgba(165, 42, 42, 0.703);
+    height: 100%;    
+    float: right;
+    width: 50%;
+    padding-left:50px;
+padding-top:50px ;
+padding-right:40px ;}
+
+
+.left{
+    background-color: rgba(0, 0, 255, 0.711);
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: rgb(255, 255, 255);
+
+padding-left:50px;
+padding-top:50px ;
+padding-right:50px ;
+text-align: justify;
+}
+
+.cont{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
